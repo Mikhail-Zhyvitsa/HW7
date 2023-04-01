@@ -1,0 +1,109 @@
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(18, 134, 96);
+    top: 0;
+    left: 0;
+}
+.title {
+    text-align: center;
+}
+.block1 {
+    background-color: yellow;
+    width: 530px;
+    height: 200px;
+}
+.block2 {
+    background-color: green;
+    width: 530px;
+    height: 200px;
+}
+.block3 {
+    background-color: blueviolet;
+    width: 530px;
+    height: 200px;
+}
+.block4 {
+    background-color: lightcoral;
+    width: 530px;
+    height: 200px;
+}
+.subtitle1 {
+    text-align: center;
+}
+.subtitle2 {
+    text-align: center;
+}
+.subtitle3 {
+    text-align: center;
+}
+.subtitle4 {
+    text-align: center;
+}
+.title1 {
+    width: 500px;
+    font-size: 1.2rem;
+}
+.title2 {
+    width: 500px;
+    font-size: 1.2rem;
+}
+.title3 {
+    width: 500px;
+    font-size: 1.2rem;
+}
+.title4 {
+    width: 500px;
+    font-size: 1.2rem;
+}
+.fixed1 {
+    position: fixed;
+    top: 100px;
+    left: 50px;
+}
+.fixed2 {
+    position: fixed;
+    right: 250px;
+    top: 350px;
+}
+.fixed3 {
+    position: fixed;
+    left: 250px ;
+    bottom: 200px;
+}
+.fixed4 {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: fixed;
+    display: inline-block;
+    right: 10px;
+    top: 20px;
+}
+.dropdown-content {
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 1rem
+    display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
